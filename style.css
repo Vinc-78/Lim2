@@ -1,0 +1,53 @@
+/* Sfondo */
+body {
+  background-image: url("background.jpg");
+  background-size: cover; }
+
+ /* Area centrata su cui si sviluppa la pag. */
+.contenitore {
+  width: 55%;
+  background-color: rgba(0,0,0,0.40);
+  border-radius: 5%; /*Angoli arrotondato */
+  margin:auto;
+  padding: 5%; }
+
+  /* Stile intestazione */
+header{
+      text-align: center;
+       color: #7FFF00; }
+
+.logo { width: 25%; }
+
+/* Stile tasti navigazione */
+nav{
+      text-align: center;
+      background-color: #7FFF00;
+      padding: 5px;}
+
+  /* Stile scelta monopattino     */
+section{color:white;}
+.monopattinoNome {
+      padding-top: 20px;
+      font-size: 25px;
+      }
+.indirizzo{ font-size: 15px;}
+.freccia:after{content: "\21A6";}
+
+ /* Stile livelli di carica  */
+.caricauno {
+  height:20px;
+  width: 30%;
+  background: #F4A460 ;
+  border-radius: 5px;}
+
+.caricadue {
+  height:20px;
+  width: 65%;
+  background: #7FFF00 ;
+  border-radius: 5px;}
+
+.caricatre {
+  height:20px;
+  width: 18%;
+  background: #DC143C ;
+  border-radius: 5px;}
